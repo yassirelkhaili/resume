@@ -160,6 +160,16 @@ img.avatar {
   margin-bottom: 20px;
 }
 
+/* =Peronsal Edits */
+
+.description-span {
+  display: block;
+}
+
+.avatar-image {
+  height: 13rem;
+}
+
 @media only screen and (max-width : 768px) {
   section {
     grid-template-columns: 1fr;

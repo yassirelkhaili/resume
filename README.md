@@ -1,69 +1,95 @@
-# Découvrir la réalisation des pages web et coder votre cv avec HTML5/CSS3
+**English**
 
+# Online Resume Repository
+
+This repository contains the code for my online resume, built using HTML and styled with Tailwind CSS.
+
+## Table of Contents
+
+- [Introduction](#introduction)
+- [Features](#features)
+- [Technologies](#technologies)
+- [License](#license)
 
 ## Introduction
 
-Votre défi est de construire votre CV en ligne en se basant sur le modèle proposée dans le repo Github.
+This repository hosts the code for my online resume, designed to showcase my skills, experience, and projects. The resume is implemented using HTML to structure the content and Tailwind CSS for styling, ensuring a clean and modern design.
 
-Le modèle est créé en se basant sur les technologies HTML5 et CSS3. Vous êtes, donc, invité à vous documenter sur ces technologies afin de mieu comprendre le code ainsi l’adapter et modifier en mettant le contenu de votre propre CV.
+## Features
 
+- Structured and organized resume content using HTML.
+- Styling and design using Tailwind CSS for a modern and responsive layout.
+- Easy customization and adaptation to suit individual preferences.
 
-## Prérequis
+## Technologies
 
-1.  Git Bash.
-2.  Un compte Github.
-3.  VS CODE.
+- HTML: Used for structuring the content of the online resume.
+- Tailwind CSS: Utilized for styling and design, providing a modern and responsive layout.
 
+## License
 
-## Compétences requises
+This project is licensed under the [MIT License](LICENSE).
 
-1.  Structurer votre code HTML/CSS.
-2.  Commenter votre code.
-3.  Deployment sur Github ou bien autre plateforme.
+**French**
 
+# Dépôt du CV en ligne
 
-## Compétence visée
+Ce dépôt contient le code de mon CV en ligne, créé en utilisant HTML et stylisé avec Tailwind CSS.
 
-Réaliser une interface utilisateur web statique et adaptable - Niveau 1
+## Table des matières
 
+- [Introduction](#introduction)
+- [Fonctionnalités](#fonctionnalités)
+- [Technologies](#technologies)
+- [Licence](#licence)
 
-## Workflow
+## Introduction
 
-Clonnez Repo "Challenge-C2-Resume" sur votre machine.
+Ce dépôt héberge le code de mon CV en ligne, conçu pour présenter mes compétences, mon expérience et mes projets. Le CV est réalisé en utilisant HTML pour structurer le contenu et Tailwind CSS pour le style, garantissant un design propre et moderne.
 
-Initialisez votre projet comme un dépôt public sur GitHub.
+## Fonctionnalités
 
-Nommez votre repo par: my-resume.
+- Contenu du CV structuré et organisé en utilisant HTML.
+- Style et design réalisés avec Tailwind CSS pour un rendu moderne et responsive.
+- Personnalisation facile pour s'adapter aux préférences individuelles.
 
-Ajouter 'aymanebenhima' comme collaborateur sur le repo.
+## Technologies
 
-Configurez votre dépôt pour publier votre code sur les pages GitHub ou Netlify.
+- HTML : Utilisé pour structurer le contenu du CV en ligne.
+- Tailwind CSS : Utilisé pour le style et le design, offrant une mise en page moderne et responsive.
 
-Analysez le code du modèle et documentez vous pour enlever toute ambiguïté. Vous devez être capable de commenter et expliquer l’ensemble du code avant de commencer d’ajouter votre touche.
+## Licence
 
-Ajouter vos informations personnelles et vos choix de couleurs, fonts …
+Ce projet est sous licence [MIT](LICENSE).
 
-Effectuez un pull request et désignez le formateur comme examinateur de votre solution. 
-    
+**German**
 
-## Livrables
+# Online-Lebenslauf-Repository
 
-1.  Rapport décrivant les balises et les propriétés CSS utilisées.
-2.  Lien du repo Github.
-3.  Lien d'hébéregement.
+Dieses Repository enthält den Code für meinen Online-Lebenslauf, der mit HTML erstellt und mit Tailwind CSS gestylt wurde.
 
+## Inhaltsverzeichnis
 
-## Modalités d'évaluation
+- [Einführung](#einführung)
+- [Funktionen](#funktionen)
+- [Technologien](#technologien)
+- [Lizenz](#lizenz)
 
-Une description orale du code à titre individuel.
+## Einführung
 
+Dieses Repository enthält den Code für meinen Online-Lebenslauf, der dazu dient, meine Fähigkeiten, Erfahrungen und Projekte zu präsentieren. Der Lebenslauf wurde mit HTML strukturiert und mit Tailwind CSS gestylt, um ein sauberes und modernes Design zu gewährleisten.
 
-## Critère de performance
+## Funktionen
 
-Le résultat final doit avoir exactement votre CV respectant le design du modèle.
+- Strukturierter und organisierter Lebenslaufinhalt mithilfe von HTML.
+- Stil und Design mithilfe von Tailwind CSS für ein modernes und responsives Layout.
+- Einfache Anpassung und Anpassung an individuelle Vorlieben.
 
+## Technologien
 
-## Modalités pédagogiques
+- HTML: Verwendet zur Strukturierung des Inhalts des Online-Lebenslaufs.
+- Tailwind CSS: Verwendet zur Gestaltung und Design, um ein modernes und responsives Layout zu bieten.
 
-Travail individuel.
-1 jour.
+## Lizenz
+
+Dieses Projekt steht unter der [MIT-Lizenz](LICENSE).

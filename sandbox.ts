@@ -40,7 +40,6 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 
     const changeImagesColor = () : void => {
-        console.log("triggered")
         const images = document.querySelectorAll(".hobby-icon") as NodeListOf<HTMLImageElement>;
         images.forEach((image: HTMLImageElement) => {
             const oldImageSrc: string | null = image.getAttribute("src");
@@ -77,4 +76,5 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 
     initializeThemeChangerIcon();
+
 })

@@ -35,7 +35,6 @@ document.addEventListener("DOMContentLoaded", () => {
         }
     };
     const changeImagesColor = () => {
-        console.log("triggered");
         const images = document.querySelectorAll(".hobby-icon");
         images.forEach((image) => {
             const oldImageSrc = image.getAttribute("src");

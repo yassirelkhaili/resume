@@ -25,7 +25,8 @@ This repository hosts the code for my online resume, designed to showcase my ski
 
 - HTML: Used for structuring the content of the online resume.
 - Tailwind CSS: Utilized for styling and design, providing a modern and responsive layout.
-
+- Javascript : Used to add functionality to this website.
+- Typescript : For type safety and is compiled to javascript.
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
@@ -57,6 +58,8 @@ Ce dépôt héberge le code de mon CV en ligne, conçu pour présenter mes comp�
 
 - HTML : Utilisé pour structurer le contenu du CV en ligne.
 - Tailwind CSS : Utilisé pour le style et le design, offrant une mise en page moderne et responsive.
+- Javascript : Utilisé pour les functionalites du site.
+- Typescript : Pour le Type safety, il compile en javascript.
 
 ## Licence
 
@@ -89,6 +92,8 @@ Dieses Repository enthält den Code für meinen Online-Lebenslauf, der dazu dien
 
 - HTML: Verwendet zur Strukturierung des Inhalts des Online-Lebenslaufs.
 - Tailwind CSS: Verwendet zur Gestaltung und Design, um ein modernes und responsives Layout zu bieten.
+- JavaScript: Wird verwendet, um Funktionalität zu dieser Website hinzuzufügen.
+- TypeScript: Für Typsicherheit und wird zu JavaScript kompiliert
 
 ## Lizenz
 

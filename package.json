@@ -1,0 +1,10 @@
+{
+  "scripts": {
+    "start": "concurrently \"npm:tailwind:watch\" \"tsc --watch\"",
+    "tailwind:watch": "npx tailwindcss -i ./globals.css -o ./dist/output.css -w"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2",
+    "tailwindcss": "^3.3.6"
+  }
+}

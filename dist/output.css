@@ -645,6 +645,10 @@ video {
   inset: -0.25rem;
 }
 
+.bottom-4 {
+  bottom: 1rem;
+}
+
 .end-1 {
   inset-inline-end: 0.25rem;
 }
@@ -738,6 +742,10 @@ video {
 
 .mt-2\.5 {
   margin-top: 0.625rem;
+}
+
+.mt-5 {
+  margin-top: 1.25rem;
 }
 
 .box-border {
@@ -849,6 +857,10 @@ video {
 
 .w-\[100\%\] {
   width: 100%;
+}
+
+.w-\[300px\] {
+  width: 300px;
 }
 
 .w-\[this-is\\\\\] {

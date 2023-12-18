@@ -22,6 +22,10 @@ const translations = {
         education1_header: "Cadi Ayyad University",
         education1_title: "Faculty of Sciences and Technologies",
         education1_description: "During my time at the Faculty of Sciences and Technology, I gained a foundational understanding of general programming fundamentals as well as C language basics, setting the stage for my journey into computer science and software development.",
+        english: "English",
+        french: "French",
+        german: "German",
+        arabic: "Arabic",
     },
     FR: {
         job_title: "Développeur Full Stack",
@@ -41,6 +45,10 @@ const translations = {
         education1_header: "Université Cadi Ayyad",
         education1_title: "Faculté des sciences et technologies",
         education1_description: "Pendant mes études à la Faculté des sciences et de la technologie, j'ai appris une compréhension fondamentale des principes généraux de programmation ainsi que des bases du langage C, préparant ainsi le terrain pour mon parcours en informatique et en développement logiciel.",
+        english: "Englais",
+        french: "Français",
+        german: "Allemand",
+        arabic: "Arabe",
     },
     DE: {
         job_title: "Full Stack Entwickler",
@@ -59,7 +67,11 @@ const translations = {
         position3_description: "Bei Eureka Digital begann meine berufliche Reise. Dort erstellte ich statische Websites für kleine und mittelständische Unternehmen mit HTML, CSS, Bootstrap und JavaScript. Später vertiefte ich mein Verständnis für die Kundenanforderungen durch das Studium von ReactJS und Laravel.",
         education1_header: "Universität Cadi Ayyad.",
         education1_title: "Fakultät für Naturwissenschaften und Technologien",
-        education1_description: "Während meines Studiums an der Fakultät für Naturwissenschaften und Technologie habe ich ein grundlegendes Verständnis für allgemeine Programmiergrundlagen sowie die Grundlagen der Programmiersprache C erworben und somit den Weg für meine Reise in die Informatik und Softwareentwicklung geebnet.",
+        education1_description: "Während meines Studiums an der Fakultät für Naturwissenschaften und Technologie habe ich ein grundlegendes Verständnis der Programmierung und die C-Programmierung erlernt, was meinen Weg in die Informatik und Anwendungsentwicklung geebnet hat.",
+        english: "Englisch",
+        french: "Französisch",
+        german: "Deutsch",
+        arabic: "Arabisch",
     }
 };
 const languagesArray = ["EN", "DE", "FR"];

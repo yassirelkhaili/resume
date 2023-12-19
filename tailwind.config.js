@@ -10,6 +10,9 @@ theme: {
     'sourcesans': ['Source Sans Pro', 'sans-serif']
   },
   extend: {
+    screens: {
+      sm: "550px",
+    },
     colors: {
       dark_background: "#111827",
       dark_card_background: "#1F2937",

@@ -875,6 +875,18 @@ video {
   width: weird-and-invalid;
 }
 
+.w-\[\] {
+  width: ;
+}
+
+.w-\[20rem\] {
+  width: 20rem;
+}
+
+.w-\[204px\] {
+  width: 204px;
+}
+
 .max-w-\[1000px\] {
   max-width: 1000px;
 }

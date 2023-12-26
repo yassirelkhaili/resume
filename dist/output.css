@@ -863,6 +863,10 @@ video {
   width: 100%;
 }
 
+.w-\[204px\] {
+  width: 204px;
+}
+
 .w-\[this-is\\\\\] {
   width: this-is\\;
 }
@@ -873,18 +877,6 @@ video {
 
 .w-\[weird-and-invalid\] {
   width: weird-and-invalid;
-}
-
-.w-\[\] {
-  width: ;
-}
-
-.w-\[20rem\] {
-  width: 20rem;
-}
-
-.w-\[204px\] {
-  width: 204px;
 }
 
 .max-w-\[1000px\] {

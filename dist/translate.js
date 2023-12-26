@@ -39,6 +39,10 @@ const translations = {
         french: "French: Fluent",
         german: "German: TELC C1",
         arabic: "Arabic: Native",
+        recommendation1: "Aymane Benhima, Fullstack Developer & Referent Trainer",
+        recommendation2: "YouCode School",
+        recommendation3: "Yassir is an exceptional developer, and it has been a pleasure to have them as a student in my class. I have had the opportunity to observe their growth and development. Yassir excels in writing clean and effective TypeScript and PHP code, crucial skills in modern development. His enthusiasm for both languages and proactive problem-solving make him stand out. I'm confident Yassir will continue to thrive in his career, contributing significantly to any team he joins.",
+        recommendation4: "More references available upon request.",
     },
     FR: {
         job_title: "Développeur Full Stack",
@@ -75,6 +79,10 @@ const translations = {
         french: "Français: Courant",
         german: "Allemand: TELC C1",
         arabic: "Arabe: Natale",
+        recommendation1: "Développeur Fullstack & Formateur Référent",
+        recommendation2: "École YouCode",
+        recommendation3: "Yassir est un développeur exceptionnel, et c'était un plaisir de l'avoir comme étudiant dans ma classe. J'ai eu l'opportunité d'observer sa progression remarquable. Yassir maîtrise TypeScript et PHP avec efficacité, des compétences clés en développement moderne. Son enthousiasme et sa capacité proactive à résoudre les problèmes le distinguent. Je suis sûr que Yassir continuera à exceller et apportera beaucoup à chaque équipe.",
+        recommendation4: "Plus de références disponibles sur demande.",
     },
     DE: {
         job_title: "Full Stack Entwickler",
@@ -111,6 +119,10 @@ const translations = {
         french: "Französisch: Fließend",
         german: "Deutsch: TELC C1",
         arabic: "Arabisch: Muttersprache",
+        recommendation1: "Aymane Benhima, Fullstack-Entwickler & Referententrainer",
+        recommendation2: "YouCode Schule",
+        recommendation3: "Yassir ist ein hervorragender Entwickler, und es war eine Freude, ihn in meinem Unterricht zu haben. Ich habe seine bemerkenswerte Wachstum und Entwicklung beobachtet. Yassir zeichnet sich durch sauberen und effektiven TypeScript- und PHP-Code aus. Seine Begeisterung und proaktive Problemlösungsfähigkeit heben ihn hervor. Ich bin sicher, dass Yassir weiterhin jedem Team herausragende Leistungen erbringen wird.",
+        recommendation4: "Weitere Referenzen auf Anfrage verfügbar.",
     }
 };
 const languagesArray = ["EN", "DE", "FR"];

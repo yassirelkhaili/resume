@@ -6,7 +6,7 @@
 const translations = {
     EN: {
         job_title: "Full Stack Developer",
-        about_me: "Passionate Full Stack Developer skilled in Typescript, PHP, and C. Expertise in designing scalable solutions. Collaborative team player with experience in high-quality project delivery. Actively exploring emerging technologies to stay ahead. Eager to contribute, solve complex challenges and drive impactful results.",
+        about_me: "Passionate Full Stack Developer skilled in Typescript and PHP. Expertise in designing scalable solutions. Collaborative team player with experience in high-quality project delivery. Actively exploring emerging technologies to stay ahead. Eager to contribute, solve complex challenges and drive impactful results.",
         experience: "Experience",
         education: "Education",
         languages: "Languages",
@@ -21,7 +21,7 @@ const translations = {
         position1_phrase3: "Maintained and updated web applications to meet evolving requirements.",
         position1_phrase4: "Collaborated with cross-functional teams to implement new functionalities.",
         position1_phrase5: "Enhanced the overall user experience and efficiency of targeted websites.",
-        position1_phrase6: "Required Skills: PHP, Laravel, SQL, Javascript.",
+        position1_phrase6: "Required Skills: PHP, Laravel, UML, SQL, Javascript.",
         position2_phrase1: "Crafted dynamic websites for diverse clients, including skipcash.com.",
         position2_phrase2: "Demonstrated proficiency in creating dynamic and efficient web experiences.",
         position2_phrase3: "Gained insights into creating responsive and visually appealing websites.",
@@ -46,7 +46,7 @@ const translations = {
     },
     FR: {
         job_title: "Développeur Full Stack",
-        about_me: "Développeur Full Stack passionné, compétent en Typescript, PHP et C. Expérience dans la conception de solutions évolutives et haute quelité. Joueur d'équipe collaboratif. Reste à jour avec les technologies émergentes. Avide de contribuer, résoudre des défis complexes et de générer des résultats impactants.",
+        about_me: "Développeur Full Stack passionné, compétent en Typescript et PHP. Expérience dans la conception de solutions évolutives et haute quelité. Joueur d'équipe collaboratif. Reste à jour avec les technologies émergentes. Avide de contribuer, résoudre des défis complexes et de générer des résultats impactants.",
         experience: "Expérience",
         education: "Éducation",
         languages: "Langues",
@@ -61,7 +61,7 @@ const translations = {
         position1_phrase3: "Maintenu et mis à jour des applications web suivant l'évolution du marché.",
         position1_phrase4: "Collaboré avec l'équipes pour mettre en œuvre de nouvaux  fonctionnalités.",
         position1_phrase5: "Amélioré l'expérience utilisateur globale et l'efficacité des sites web ciblés.",
-        position1_phrase6: "Compétences requises : PHP, Laravel, SQL, Javascript.",
+        position1_phrase6: "Compétences requises : PHP, Laravel, UML, SQL, Javascript.",
         position2_phrase1: "Conçu des sites web dynamiques pour divers clients, y compris skipcash.com.",
         position2_phrase2: "Démontré expertise dans la conception d'expériences web dynamiques.",
         position2_phrase3: "Acquis une vision pour la création de sites web réactifs et attrayants.",
@@ -86,7 +86,7 @@ const translations = {
     },
     DE: {
         job_title: "Full Stack Entwickler",
-        about_me: "Full Stack Entwickler mit Kenntnissen in TypeScript, PHP und C. Mit Erfahrung in der Gestaltung skalierbarer und hochwertiger Lösungen. Teamplayer, stets auf dem neuesten Stand in aufkommenden Technologien. Bereit, komplexe Herausforderungen tatkräftig anzugehen und nachhaltige Ergebnisse zu erzielen.",
+        about_me: "Full Stack Entwickler mit guten kenntnissen in TypeScript und PHP. Erfahrung in der Gestaltung skalierbarer und hochwertiger Lösungen. Teamplayer, stets auf dem neuesten Stand in aufkommenden Technologien. Bereit, komplexe Herausforderungen tatkräftig anzugehen und nachhaltige Ergebnisse zu erzielen.",
         experience: "Erfahrung",
         education: "Ausbildung",
         languages: "Sprachen",
@@ -101,7 +101,7 @@ const translations = {
         position1_phrase3: "Wartete und aktualisierte Webanwendungen gemäß den Marktentwicklungen.",
         position1_phrase4: "Kollaborierte mit dem Team, um neue Funktionen umzusetzen.",
         position1_phrase5: "Optimierte die Nutzererfahrung und Effizienz der ausgewählten Websites.",
-        position1_phrase6: "Erforderliche Fähigkeiten: PHP, Laravel, SQL, Javascript.",
+        position1_phrase6: "Erforderliche Fähigkeiten: PHP, Laravel, UML, SQL, Javascript.",
         position2_phrase1: "Erstellte dynamische Websites für verschiedene Kunden wie skipcash.com.",
         position2_phrase2: "Zeigte Kompetenz in der Gestaltung effizienter Web-Erlebnisse.",
         position2_phrase3: "Erhielt Einblicke in die Entwicklung ansprechender und responsiver Webssites.",

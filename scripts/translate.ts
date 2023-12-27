@@ -182,6 +182,7 @@ const handleTranslation = (language: Language): void => {
   });
   languageIndex = languageIndex === 2 ? 0 : ++languageIndex;
 };
+
 document.addEventListener("DOMContentLoaded", () => {
     const languageToggler = document.querySelector(".languageToggler") as HTMLDivElement;
     languageToggler && languageToggler.addEventListener("click", () => handleTranslation(languagesArray[languageIndex]))

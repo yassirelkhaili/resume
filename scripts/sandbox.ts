@@ -3,7 +3,7 @@
  * @license MIT
 */
 
-let currenTheme: string = "";
+let currentTheme: string = "";
 
 const handleInitialTheme = () => {
   const rootClasses: Array<string> = ["transition", "duration-100"];
@@ -13,13 +13,15 @@ const handleInitialTheme = () => {
   if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
     document.documentElement.classList.add("dark");
     localStorage.setItem("color-theme", "dark");
-    currenTheme = "dark";
+    currentTheme = "dark";
   } else if (!("color-theme" in localStorage)) {
     localStorage.setItem("color-theme", "light");
-    currenTheme = "light";
+    currentTheme = "light";
   } else if (localStorage.getItem("color-theme") === "dark") {
     document.documentElement.classList.add("dark");
-    currenTheme = "dark";
+    currentTheme = "dark";
+  } else {
+    currentTheme = "light";
   }
 };
 
@@ -44,7 +46,7 @@ document.addEventListener("DOMContentLoaded", () => {
             const oldImageSrc: string | null = image.getAttribute("src");
             if (oldImageSrc) {
                 let newImageSrc: string = ""
-                currenTheme === "dark" ? newImageSrc = oldImageSrc.replace(oldImageSrc.split("/")[5], "f8fafc") : newImageSrc = oldImageSrc.replace(oldImageSrc.split("/")[5], "707071");
+                currentTheme === "dark" ? newImageSrc = oldImageSrc.replace(oldImageSrc.split("/")[5], "f8fafc") : newImageSrc = oldImageSrc.replace(oldImageSrc.split("/")[5], "707071");
                 image.setAttribute("src", newImageSrc);
             }
         })
@@ -53,16 +55,16 @@ document.addEventListener("DOMContentLoaded", () => {
     changeImagesColor();
 
     const themeChangeHandler = (): void => {
-        if (currenTheme === "light") {
+        if (currentTheme === "light") {
             document.documentElement.classList.add("dark");
             localStorage.setItem("color-theme", "dark");
-            currenTheme = "dark";
+            currentTheme = "dark";
             changeImagesColor();
             handleThemeChangerIcon();
         } else {
             document.documentElement.classList.remove("dark");
             localStorage.setItem("color-theme", "light");
-            currenTheme = "light";
+            currentTheme = "light";
             changeImagesColor();
             handleThemeChangerIcon();
         }
@@ -71,7 +73,7 @@ document.addEventListener("DOMContentLoaded", () => {
     themeChanger && themeChanger.addEventListener("click", themeChangeHandler);
 
     const initializeThemeChangerIcon = (): void => {
-        currenTheme === "light" ? themeChanger.setAttribute("src", "https://img.icons8.com/ios-filled/20/f8fafc/bright-moon.png") : themeChanger.setAttribute("src", "https://img.icons8.com/ios-filled/20/f8fafc/sun--v1.png");
+        currentTheme === "light" ? themeChanger.setAttribute("src", "https://img.icons8.com/ios-filled/20/707071/bright-moon.png") : themeChanger.setAttribute("src", "https://img.icons8.com/ios-filled/20/f8fafc/sun--v1.png");
     }
 
     initializeThemeChangerIcon();

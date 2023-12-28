@@ -7,20 +7,14 @@ let currentTheme = "";
 const handleInitialTheme = () => {
     const rootClasses = ["transition", "duration-100"];
     rootClasses.forEach((rootClass) => document.documentElement.classList.add(rootClass));
-    if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
+    const themeStored = localStorage.getItem("color-theme");
+    if (themeStored === "dark" || (themeStored === null && window.matchMedia("(prefers-color-scheme: dark)").matches)) {
         document.documentElement.classList.add("dark");
         localStorage.setItem("color-theme", "dark");
         currentTheme = "dark";
     }
-    else if (!("color-theme" in localStorage)) {
-        localStorage.setItem("color-theme", "light");
-        currentTheme = "light";
-    }
-    else if (localStorage.getItem("color-theme") === "dark") {
-        document.documentElement.classList.add("dark");
-        currentTheme = "dark";
-    }
     else {
+        localStorage.setItem("color-theme", "light");
         currentTheme = "light";
     }
 };

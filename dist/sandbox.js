@@ -25,7 +25,6 @@ handleInitialTheme();
 document.addEventListener("DOMContentLoaded", () => {
     const themeChanger = document.querySelector(".theme-changer");
     const handleThemeChangerIcon = () => {
-        console.log("triggerded");
         const oldthemeChangerSrc = themeChanger.getAttribute("src");
         if (oldthemeChangerSrc) {
             const lastSrcElement = oldthemeChangerSrc.split("/")[oldthemeChangerSrc.split("/").length - 1];

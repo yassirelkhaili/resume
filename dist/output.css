@@ -1,5 +1,5 @@
 /*
-! tailwindcss v3.4.0 | MIT License | https://tailwindcss.com
+! tailwindcss v3.4.1 | MIT License | https://tailwindcss.com
 */
 
 /*
@@ -2622,6 +2622,26 @@ video {
   text-align: center;
 }
 
+:is(.dark .dark\:bg-dark_background) {
+  --tw-bg-opacity: 1;
+  background-color: rgb(17 24 39 / var(--tw-bg-opacity));
+}
+
+:is(.dark .dark\:bg-dark_card_background) {
+  --tw-bg-opacity: 1;
+  background-color: rgb(31 41 55 / var(--tw-bg-opacity));
+}
+
+:is(.dark .dark\:text-dark_color) {
+  --tw-text-opacity: 1;
+  color: rgb(99 102 241 / var(--tw-text-opacity));
+}
+
+:is(.dark .dark\:text-slate-50) {
+  --tw-text-opacity: 1;
+  color: rgb(248 250 252 / var(--tw-text-opacity));
+}
+
 @media (min-width: 550px) {
   .sm\:flex {
     display: flex;
@@ -2657,10 +2677,6 @@ video {
     margin-right: auto;
   }
 
-  .md\:grid-cols-\[1fr_1fr_1fr\] {
-    grid-template-columns: 1fr 1fr 1fr;
-  }
-
   .md\:grid-cols-\[1fr_1fr_1fr_1fr\] {
     grid-template-columns: 1fr 1fr 1fr 1fr;
   }
@@ -2686,28 +2702,8 @@ video {
   }
 }
 
-:is(:where(.dark) .dark\:bg-dark_background) {
-  --tw-bg-opacity: 1;
-  background-color: rgb(17 24 39 / var(--tw-bg-opacity));
-}
-
-:is(:where(.dark) .dark\:bg-dark_card_background) {
-  --tw-bg-opacity: 1;
-  background-color: rgb(31 41 55 / var(--tw-bg-opacity));
-}
-
-:is(:where(.dark) .dark\:text-dark_color) {
-  --tw-text-opacity: 1;
-  color: rgb(99 102 241 / var(--tw-text-opacity));
-}
-
-:is(:where(.dark) .dark\:text-slate-50) {
-  --tw-text-opacity: 1;
-  color: rgb(248 250 252 / var(--tw-text-opacity));
-}
-
 @media (min-width: 1024px) {
-  :is(:where(.dark) .dark\:lg\:hover\:\[paint-order\:markers\]:hover) {
+  :is(.dark .dark\:lg\:hover\:\[paint-order\:markers\]:hover) {
     paint-order: markers;
   }
 }

@@ -139,7 +139,7 @@ const translations = {
         german: "Deutsch: TELC C1",
         arabic: "Arabisch: Muttersprache",
         recommendation1: "Aymane Benhima, Fullstack-Entwickler & Referententrainer",
-        recommendation2: "YouCode Schule",
+        recommendation2: "YouCode UM6P",
         recommendation3: "Yassir ist ein hervorragender Entwickler, und es war eine Freude, ihn in meinem Unterricht zu haben. Ich habe seine bemerkenswerte Wachstum und Entwicklung beobachtet. Yassir zeichnet sich durch sauberen und effektiven TypeScript- und PHP-Code aus. Seine Begeisterung und proaktive Problemlösungsfähigkeit heben ihn hervor. Ich bin sicher, dass Yassir weiterhin jedem Team herausragende Leistungen erbringen wird.",
         recommendation4: "Weitere Referenzen auf Anfrage verfügbar.",
         project_title1: "Entwickelt eine Open-Source Webentwicklungsagentur",

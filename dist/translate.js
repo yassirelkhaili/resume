@@ -2,7 +2,7 @@
 /**
  * @author Yassir Elkhaili
  * @license MIT
-*/
+ */
 const translations = {
     EN: {
         job_title: "Full Stack Developer",
@@ -47,19 +47,23 @@ const translations = {
         project_title1: "Developed an open-source web development agency",
         project_title2: "Built a PHP Framework and ORM to develop more optimized webapps",
         project_title3: "Developed a modern and collaborative Wiki platform",
-        project_title4: "Developed a robust secrets manager platform tailored for developers",
         project1_skills: "Required Skills: TailwindCSS, Typescript, ReactJS, NextJS, Prisma, SQL",
         project2_skills: "Required Skills: PHP, SQL, design/architectural patterns, ORM design",
         project3_skills: "Required Skills: TailwindCSS, Typescript, ReactJS, PHP, SimpleKit, UML, SQL",
-        project4_skills: "Required Skills: Laravel, React, Typescript, Inertia.js, TailwindCSS",
         position4_title: "Developer Intern",
         position4_phrase1: "Completed tasks and enhanced the company's internal framework.",
         position4_phrase2: "collaborated with coworkers to achieve objectives and meet goals.",
         position4_phrase3: "Enhanced the user experience and efficiency of the main solution.",
         position4_phrase4: "Required Skills: Advanced JavaScript, PHP, SQL, Internal framework.",
         position4_date: "Aug 2024 - Present",
-        project5_skills: "Status: Continuously updated / Under developement",
-        project6_skills: "Source Code: Private / Propriatary"
+        project_title_optec: "Building a multi-tenant logistics platform tailored for SMEs",
+        project_optec_source: "Source Code: Private / Proprietary",
+        project_optec_status: "Status: Continuously updated / Under development",
+        project_optec_skills: "Required Skills: Laravel, Inertia.js, React, TypeScript, TailwindCSS",
+        project_title_experience: "Built a booking platform for a Moroccan tourism business",
+        project_experience_source: "Source Code: Private / Proprietary",
+        project_experience_status: "Status: Continuously updated / Under development",
+        project_experience_skills: "Required Skills: Laravel, Inertia.js, React, TypeScript, TailwindCSS",
     },
     FR: {
         job_title: "Développeur Full Stack",
@@ -116,7 +120,15 @@ const translations = {
         position4_phrase4: "Compétences requises: JavaScript avancé, PHP, SQL, Framework interne.",
         position4_date: "Aug 2024 - Présent",
         project5_skills: "Statut : Continuement mis à jour / En développement",
-        project6_skills: "Source Code: Privé / Propriétaire"
+        project6_skills: "Source Code: Privé / Propriatary",
+        project_title_optec: "Développement d'une plateforme logistique multi-tenant adaptée aux PME",
+        project_optec_source: "Code source : Privé / Propriétaire",
+        project_optec_status: "Statut : Mise à jour continue / En développement",
+        project_optec_skills: "Compétences requises : Laravel, Inertia.js, React, TypeScript, TailwindCSS",
+        project_title_experience: "Plateforme de réservation pour une entreprise touristique marocaine",
+        project_experience_source: "Code source : Privé / Propriétaire",
+        project_experience_status: "Statut : Mise à jour continue / En développement",
+        project_experience_skills: "Compétences requises : Laravel, Inertia.js, React, TypeScript, TailwindCSS",
     },
     DE: {
         job_title: "Full Stack Entwickler",
@@ -173,8 +185,16 @@ const translations = {
         position4_phrase4: "Erforderliche Fähigkeiten: Solides JavaScript, PHP, SQL, internes Framework.",
         position4_date: "Aug 2024 - Jetzt",
         project5_skills: "Status: Kontinuierlich aktualisiert / In Entwicklung",
-        project6_skills: "Source Code: Privat / Eigentum"
-    }
+        project6_skills: "Source Code: Privat / Propriatary",
+        project_title_optec: "Entwicklung einer mandantenfähigen Logistikplattform für KMU",
+        project_optec_source: "Quellcode: Privat / Proprietär",
+        project_optec_status: "Status: Laufend aktualisiert / In Entwicklung",
+        project_optec_skills: "Erforderliche Kenntnisse: Laravel, Inertia.js, React, TypeScript, TailwindCSS",
+        project_title_experience: "Buchungsplattform für ein marokkanisches Tourismusunternehmen",
+        project_experience_source: "Quellcode: Privat / Proprietär",
+        project_experience_status: "Status: Laufend aktualisiert / In Entwicklung",
+        project_experience_skills: "Erforderliche Kenntnisse: Laravel, Inertia.js, React, TypeScript, TailwindCSS",
+    },
 };
 const languagesArray = ["EN", "DE", "FR"];
 let languageIndex = 1;
@@ -183,11 +203,14 @@ const handleTranslation = (language) => {
     toTranslate.forEach((translate) => {
         const key = translate.getAttribute("data-translate");
         const translation = translations[language] && translations[language][key];
-        translation !== undefined ? translate.innerText = translation : console.warn(`Translation not found for key '${key}' in language '${language}'`);
+        translation !== undefined
+            ? (translate.innerText = translation)
+            : console.warn(`Translation not found for key '${key}' in language '${language}'`);
     });
     languageIndex = languageIndex === 2 ? 0 : ++languageIndex;
 };
 document.addEventListener("DOMContentLoaded", () => {
     const languageToggler = document.querySelector(".languageToggler");
-    languageToggler && languageToggler.addEventListener("click", () => handleTranslation(languagesArray[languageIndex]));
+    languageToggler &&
+        languageToggler.addEventListener("click", () => handleTranslation(languagesArray[languageIndex]));
 });
